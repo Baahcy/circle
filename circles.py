@@ -13,4 +13,3 @@ def circle_area(r):
 # for r in radii:
 #     A = circle_area(r)
 #     print(message.format(radius=r, area=A))
-

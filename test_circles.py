@@ -11,7 +11,3 @@ class TestCircle:
         # Test areas when radius >= 0
         # assert 12.566370614359172 == circles.circle_area(2)
         assert pi * (2 ** 2) == circles.circle_area(2)
-
-
-
-
