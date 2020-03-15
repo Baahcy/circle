@@ -1,13 +1,17 @@
-import unittest
-from circles import circle_area
+"""
+Unit tests for the Circles
+"""
+
+import circles
 from math import pi
 
 
-class TesCircleArea(unittest.TestCase):
+class TestCircle:
     def test_area(self):
         # Test areas when radius >= 0
-        self.assertAlmostEqual(circle_area(1), pi)
-        self.assertAlmostEqual(circle_area(0), 0)
-        self.assertAlmostEqual(circle_area(2.1), pi * 2.1**2)
+        # assert 12.566370614359172 == circles.circle_area(2)
+        assert pi * (2 ** 2) == circles.circle_area(2)
+
+
 
 
